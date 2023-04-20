@@ -38,7 +38,7 @@
   },
   "scripts": {
     "start": "storybook dev -p 6006",
-    "build": "yarn clean && tsc && yarn copy-files",
+    "build": "tsc && yarn copy-files",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "build-static-webapp": "expo build:web",
