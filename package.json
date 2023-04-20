@@ -79,5 +79,13 @@
     "rimraf": "^5.0.0",
     "semantic-release": "^21.0.1",
     "storybook": "7.0.6"
-  }
+  },
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/changelog",
+    "@semantic-release/github",
+    "@semantic-release/npm",
+    "@semantic-release/git"
+]
 }
